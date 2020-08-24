@@ -1,0 +1,211 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body {
+  
+  box-sizing: border-box;
+  font-family: 'Yeon Sung', cursive;
+  background-color:black;
+  color:silver;
+  font-size:2em;
+  text-align:center;
+}
+
+h1 {
+  font-style: italic;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+table tr th link{
+  color:silver;
+}
+
+form {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 21rem;
+  border-radius: .5rem;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: .3rem;
+  width: 100%;
+  border: .06rem solid lightgray;
+  border-radius: .5rem;
+  font-size: 1em;
+}
+
+button {
+  font-size: 1em;
+  border-radius: .5rem;
+  background-color: lightgray;
+  border: .06rem solid grey;
+  box-shadow: .1rem .1rem teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: .3rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: .06rem solid lightgray;
+}
+
+#install-prompt {
+  margin-top: 1rem;
+}
+
+
+
+section{
+  margin: 0 0 50px 0;
+}
+
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
+
+/* Add a black background color to the top navigation */
+nav {
+   overflow: hidden;  
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  
+  color:white;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 1.3em;
+  text-align: center;
+  text-decoration: none;
+  padding:0 .5em 0 .5em;  
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #000;
+  color: black;
+}
+
+
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/*Fixed Navbar*/
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:1 em;
+}
+
+/* Change background on mouse-over */
+
+
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+/* Main content */
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+/* NEON */
+.neon {
+color: #FFFFFF;
+background: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+background: black;
+font-family: 'Yeon Sung', cursive;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: silver;
+}
+
+/* visited link */
+a:visited {
+  color: silver;
+}
+
+/* mouse over link */
+a:hover {
+  color: silver;
+}
+
+/* selected link */
+a:active {
+  color: silver;
+}
